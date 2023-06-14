@@ -1,0 +1,47 @@
+#main-about {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F8F8FC;
+}
+#main-about .main-page-text {
+  width: 37%;
+  height: 70vh;
+  text-align: justify;
+}
+#main-about .main-page-text span {
+  color: #F5715A;
+  font-size: 22px;
+}
+#main-about .main-page-text h1 {
+  font-size: 2.5rem;
+  margin: 40px 0;
+}
+#main-about .main-page-text p {
+  line-height: 30px;
+  color: #939599;
+}
+#main-about .main-page-text .info {
+  width: 65%;
+  margin: 20px 0;
+  padding: 8px 12px;
+  background-color: #DDECFD;
+}
+#main-about .main-page-text .info i {
+  padding: 3px 7px;
+  border-radius: 50%;
+  border: 2px solid blue;
+  color: blue;
+}
+#main-about .main-page-image {
+  width: 45%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-about .main-page-image img {
+  width: 70%;
+}/*# sourceMappingURL=about.css.map */

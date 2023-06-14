@@ -1,0 +1,46 @@
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #studentsProjects {
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main #studentsProjects table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+main #studentsProjects table tr {
+  background-color: rgba(222, 226, 231, 0.3568627451);
+}
+main #studentsProjects table tr img {
+  width: 30px;
+}
+main #studentsProjects table td,
+main #studentsProjects table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-weight: 600;
+}
+main #studentsProjects table .s1 {
+  display: flex;
+  align-items: center;
+}
+main #studentsProjects table .s2 {
+  display: flex;
+  align-items: center;
+}
+main #studentsProjects table .s3 {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=final-project.css.map */

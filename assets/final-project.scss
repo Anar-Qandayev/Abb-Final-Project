@@ -1,0 +1,49 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    #studentsProjects {
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            tr{
+                background-color: #dee2e75b;
+                
+                img{
+                    width: 30px;
+                }
+            } 
+            td,
+            th {
+                
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+                font-weight: 600;
+            } 
+            .s1{
+                display: flex;
+                align-items: center;
+            }
+            .s2{
+                display: flex;
+                align-items: center;
+            }
+            .s3{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

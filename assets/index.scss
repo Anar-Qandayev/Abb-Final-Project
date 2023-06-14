@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    ul{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+#main{
+    width: 100%;
+    min-height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-direction: column;
+    background-color: #F8F8FC;
+    .up{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .main-page-text{
+            width: 37%;
+            height: 70vh;
+            text-align: justify;
+            span{
+                color: #F5715A;
+                font-size: 22px;
+            }
+            h1{
+                font-size: 2.5rem;
+                margin: 40px 0;
+            }
+            p{
+                line-height: 30px;
+                color: #939599;
+            }
+            .info{
+                width: 80%;
+                margin: 20px 0;
+                padding: 8px 12px;
+                background-color: #DDECFD;
+                i{
+                    padding: 3px 7px;
+                    border-radius: 50%;
+                    border: 2px solid blue;
+                    color: blue;
+                }
+            }
+        }
+        .main-page-image{
+            width: 45%;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            img{
+                width: 70%;
+            }
+        }
+    }
+    .skils-academy{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 50px;
+            }
+        }
+
+    }
+}
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e9f0;
+
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    ul{
+        display: flex;
+    }
+}
